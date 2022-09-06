@@ -13,7 +13,6 @@ class Queue:
     if(self.last != None):
       self.last.next = nn
       self.last = nn
-    
     else:
       self.head = nn
       self.last = nn
